@@ -1,0 +1,29 @@
+¿Qué es Git?
+b) Un sistema de control de versiones para registrar cambios en proyectos
+
+
+¿Cuál es la función principal de un repositorio?
+ b) Registrar y organizar los archivos y cambios de un proyecto
+
+
+¿Qué hace el comando git add .?
+ b) Agrega archivos al área de preparación para registrar cambios
+
+
+¿Qué hace el comando git commit?
+a) Guarda un registro de cambios realizados en el proyecto
+mkdir semana3
+touch preguntas-semana3.txt
+touch reflexion-semana3.txt
+touch conceptos-git.txt
+Repositorio:
+Un repositorio es el espacio donde se almacenan todos los archivos y cambios de un proyecto en Git.
+Permite organizar la información y trabajar de manera ordenada en el desarrollo de proyectos.
+Commit:
+Un commit es un registro de los cambios realizados en un proyecto.
+Sirve para guardar avances y mantener un historial de modificaciones hechas en los archivos.
+Push:
+El comando push se utiliza para enviar los cambios guardados en Git hacia un repositorio remoto.
+Esto permite compartir y actualizar el proyecto con otros colaboradores en plataformas como GitHub
+or qué es importante que los proyectos de software mantengan un registro de cambios usando herramientas como Git?
+https://github.com/jhonhaiderherreracabuyales-wq/programadores-para-la-paz/new/main
