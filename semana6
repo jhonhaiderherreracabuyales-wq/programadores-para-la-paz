@@ -1,0 +1,38 @@
+Pregunta 1: B. Un formato de intercambio de datos usado entre aplicaciones
+
+Pregunta 2: B. Leer datos enviados en formato JSON en una petición
+
+Pregunta 3: B. req.body
+
+Pregunta 4: C. { "nombre": "Juan" }
+
+it clone URL_DE_TU_REPOSITORIO
+cd NOMBRE_DE_TU_REPOSITORIO
+
+mkdir semana6
+cd semana6
+
+npm init -y
+npm install express
+
+touch server.js
+touch preguntas-semana6.txt
+touch prueba-api.txt
+touch ejemplo-incidencia.txt
+touch reflexion-semana6.txt
+
+
+
+
+│
+├── README.md
+│
+└── semana6/
+    ├── server.js
+    ├── preguntas-semana6.txt
+    ├── prueba-api.txt
+    ├── ejemplo-incidencia.txt
+    ├── reflexion-semana6.txt
+    ├── package.json
+    ├── package-lock.json
+    └── node_modules/
