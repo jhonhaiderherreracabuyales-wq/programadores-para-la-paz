@@ -1,0 +1,83 @@
+Preguntas de selección múltiple
+
+Pregunta 1:
+Respuesta: B. Una herramienta simple para que una comunidad registre apoyos a una causa y genere una petición formal.
+
+Pregunta 2:
+Respuesta: B. Convertir información registrada en un documento formal que pueda ser compartido o presentado.
+
+Pregunta 3:
+Respuesta: A. Para evitar almacenar información innecesaria o sensible.
+
+Pregunta 4:
+Respuesta: A. Enviar notificaciones automáticas cuando ocurre un evento en el sistema.
+
+💻 Comandos para crear la carpeta y los archivos
+mkdir semana12
+cd semana12
+
+touch preguntas-semana12.txt
+touch flujo-sistema.txt
+touch modelo-datos.txt
+touch automatizacion.txt
+touch reflexion-semana12.txt
+📄 Contenido de preguntas-semana12.txt
+Pregunta 1: B. Una herramienta simple para que una comunidad registre apoyos a una causa y genere una petición formal.
+
+Pregunta 2: B. Convertir información registrada en un documento formal que pueda ser compartido o presentado.
+
+Pregunta 3: A. Para evitar almacenar información innecesaria o sensible.
+
+Pregunta 4: A. Enviar notificaciones automáticas cuando ocurre un evento en el sistema.
+📄 Contenido de flujo-sistema.txt
+Flujo del sistema "Petición en 3 Clics"
+
+1. Un ciudadano crea una nueva causa en la plataforma.
+2. La información de la causa se guarda en la base de datos.
+3. Otros ciudadanos ingresan y apoyan la causa.
+4. El sistema cuenta automáticamente la cantidad de apoyos recibidos.
+5. Cuando se cumple el proceso, el sistema genera un documento PDF con la petición para ser compartida o presentada.
+📄 Contenido de modelo-datos.txt
+Modelo de datos
+
+Entidad: Causa
+- id
+- titulo
+- descripcion
+- fecha
+
+Sirve para almacenar la información de cada causa creada por la comunidad.
+
+Entidad: Apoyo
+- id
+- causa_id
+- nombre
+- fecha
+
+Sirve para registrar las personas que apoyan una causa y relacionarlas con ella mediante el campo causa_id.
+📄 Contenido de automatizacion.txt
+Automatización con n8n o Telegram
+
+Evento:
+Nueva causa registrada en la plataforma.
+
+Mensaje:
+"Nueva causa creada en la plataforma. Revise el sistema para conocer los detalles."
+
+Información que no debe enviarse:
+- Cédulas.
+- Teléfonos.
+- Direcciones.
+- Correos electrónicos.
+- Comentarios sensibles.
+- Datos personales de los ciudadanos.
+📄 Contenido de reflexion-semana12.txt
+Durante este curso aprendí que la tecnología puede ayudar a fortalecer la participación ciudadana y el trabajo comunitario. También comprendí la importancia de desarrollar plataformas que faciliten la comunicación entre las personas. Aprendí sobre el uso de Git, GitHub, servidores, bases de datos y automatizaciones con n8n. Además, entendí que es fundamental proteger los datos personales y mantener la seguridad de la información. Las herramientas digitales permiten organizar mejor las iniciativas de la comunidad. También hacen posible automatizar procesos y ahorrar tiempo. Este curso me permitió adquirir conocimientos útiles para crear soluciones tecnológicas con impacto social y comunitario.
+🚀 Publicar en Git
+
+Cuando termines, ejecuta:
+
+git add .
+git commit -m "Actividad semana 12"
+git push
+
